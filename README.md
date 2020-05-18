@@ -5,15 +5,28 @@ SQL (Structured Query Langauge) is the standard language for managing relational
 
 ![](EmployeeSQL/Images/sql_logo.png)
 
-management used to cumunicate with This project deals with SQL databases. Creates a database in Postgres pgAdmin and imports several csv tables stored in /data folder. Each table the SQL data types are defined, primary keys and 
-The visual representation of the database releations ERD (entity relationship diagrams) are created using free source http://www.quickdatabasediagrams.com.
+## Requirements
+The main requirements are listed below:
 
+- PostgreSQL 
+- ERD (entity relationship diagrams)
+- Python 
+- Numpy
+- Sqlalquemy
+- Matplotlib
+
+## DATA
 The project incorporates three aspect of the data: 
 
     Data Modeling
     Data Engineering
     Data Analysis
 
+# Data Modeling
+Data consist in several csv tables [EmployeeSQL/data] . The visual representation of the database releations ERD (entity relationship diagrams) are created using free source http://www.quickdatabasediagrams.com. 
+![](EmployeeSQL/Images/QuickDBD-EmployeeSQL.png)
+management used to cumunicate with This project deals with SQL databases. Creates a database in Postgres pgAdmin and imports several csv tables stored in /data folder. Each table the SQL data types are defined, primary keys and 
+The visual representation of the database releations ERD (entity relationship diagrams) are created using free source http://www.quickdatabasediagrams.com.
 consists in creating a SQL database in Postgres design the tables that hold the CSV files with information regarding employees of some company from 1980 to 1990. 
 
 The first step is DATA MODELING : inspecting the files scketching an ERD of the tables using quickDatabasediagrams. 
