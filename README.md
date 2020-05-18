@@ -1,6 +1,11 @@
-# SQL-Challenge
+### SQL-Employee Database
 
-This project deals with SQL databases. Creates a database in Postgres pgAdmin and imports several csv tables stored in /data folder. Each table the SQL data types are defined, primary keys and 
+Project Summary:
+SQL (Structured Query Langauge) is the standard language for managing relational databases [SQL](https://en.wikipedia.org/wiki/SQL).
+
+![](EmployeeSQL/Images/sql_logo.png)
+
+management used to cumunicate with This project deals with SQL databases. Creates a database in Postgres pgAdmin and imports several csv tables stored in /data folder. Each table the SQL data types are defined, primary keys and 
 The visual representation of the database releations ERD (entity relationship diagrams) are created using free source http://www.quickdatabasediagrams.com.
 
 The project incorporates three aspect of the data: 
