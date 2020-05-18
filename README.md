@@ -1,4 +1,4 @@
-### SQL-Employee Database
+# SQL-Employee Database
 
 Project Summary:
 SQL (Structured Query Langauge) is the standard language for managing relational databases [SQL](https://en.wikipedia.org/wiki/SQL). Here I am using SQL to inspect several aspects of a database build using PostgreSQL from several csv datasets. 
@@ -22,16 +22,20 @@ The project incorporates three aspect of the data:
     Data Engineering
     Data Analysis
 
-# Data Modeling
+### DATA MODELING
 Data consist in several csv tables [EmployeeSQL/data] . The visual representation of the database releations ERD (entity relationship diagrams) are created using free source http://www.quickdatabasediagrams.com. 
+
 ![](EmployeeSQL/Images/QuickDBD-EmployeeSQL.png)
-management used to cumunicate with This project deals with SQL databases. Creates a database in Postgres pgAdmin and imports several csv tables stored in /data folder. Each table the SQL data types are defined, primary keys and 
-The visual representation of the database releations ERD (entity relationship diagrams) are created using free source http://www.quickdatabasediagrams.com.
+
+
+
+Creates a database in Postgres pgAdmin and imports several csv tables stored in /data folder. Each table the SQL data types are defined, primary keys and 
+
 consists in creating a SQL database in Postgres design the tables that hold the CSV files with information regarding employees of some company from 1980 to 1990. 
 
 The first step is DATA MODELING : inspecting the files scketching an ERD of the tables using quickDatabasediagrams. 
 
-DATA ENGINEERING: with the ERD, the table schema for each table is created, specifying data types, primary keys, foreign keys, and other constraints.  
+DATA ENGINEERING: with the ERD, the table schema for each table is created, specifying data types, primary keys, foreign keys, and other constraints.  The schema of the tables can be found in [EmployeeSQL/squema.sql](EmployeeSQL/squema.sql)
 
 DATA ANALYSIS : Once thr database is built , the analysis is done querying information such as : 
     1 each employee a list containing: employee number, last name, first name, gender, and salary.
