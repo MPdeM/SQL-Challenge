@@ -1,7 +1,7 @@
 ### SQL-Employee Database
 
 Project Summary:
-SQL (Structured Query Langauge) is the standard language for managing relational databases [SQL](https://en.wikipedia.org/wiki/SQL).
+SQL (Structured Query Langauge) is the standard language for managing relational databases [SQL](https://en.wikipedia.org/wiki/SQL). Here I am using SQL to inspect several aspects of a database build using PostgreSQL from several csv datasets. 
 
 ![](EmployeeSQL/Images/sql_logo.png)
 
