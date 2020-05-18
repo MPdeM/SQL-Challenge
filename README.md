@@ -35,12 +35,17 @@ consists in creating a SQL database in Postgres design the tables that hold the 
 
 The first step is DATA MODELING : inspecting the files scketching an ERD of the tables using quickDatabasediagrams. 
 
-DATA ENGINEERING: with the ERD, the table schema for each table is created, specifying data types, primary keys, foreign keys, and other constraints.  The schema of the tables can be found in [EmployeeSQL/squema.sql](EmployeeSQL/squema.sql)
+### DATA ENGINEERING
+With the ERD, the table schema for each table is created, specifying data types, primary keys, foreign keys, and other constraints.  The schema of the tables can be found in [EmployeeSQL/squema.sql](EmployeeSQL/squema.sql)
 
-DATA ANALYSIS : Once thr database is built , the analysis is done querying information such as : 
+### DATA ANALYSIS 
+Once the database is built , the analysis is done querying information such as : 
     1 each employee a list containing: employee number, last name, first name, gender, and salary.
     2 list of employees hired in 1986
     3 for each department manager: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
     4 .. 
 
 The last step  imports the SQL databasre into Pandas using SQLAlchemy and do further analysis in Python 
+
+## Feel free to contact me
+* Marina Marinkovic/PdeM: [LinkedIn](https://www.linkedin.com/in/marinamarinkovic/) | [GitHub](https://github.com/MPdeM)
