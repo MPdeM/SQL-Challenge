@@ -36,16 +36,20 @@ With the ERD, the table schema for each table is created, specifying data types,
 
 Once the database is built , the analysis is done querying information such as : 
 
-    - 1 each employee a list containing: employee number, last name, first name, gender, and salary.
-    - 2 list of employees hired in 1986
-    - 3 for each department manager: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
-    - 4 .. 
+- 1 each employee a list containing: employee number, last name, first name, gender, and salary.
+- 2 list of employees hired in 1986
+- 3 for each department manager: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
+- 4 .. 
 ![](EmployeeSQL/Images/query.png)
+
 ### More data analysis
+
 The SQL database can be imported into Pandas with sqlalquemy by greating an engine and establishing the conection to the database in postgres. The data showed an unusial distribution of salaries. 
 ![](EmployeeSQL/Images/salaryrangehystogram.png)
+
 In addition, the average salary for the different positions also showed similar trend. The data was heavily squed toward $40.000
-![](EmployeeSQL/Images/salarJobtitle.png)
+![](EmployeeSQL/Images/salaryJobtitle.png)
+
 The data is clearly faulty. 
 
 
