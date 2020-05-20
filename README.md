@@ -49,7 +49,7 @@ The SQL database can be imported into Pandas with sqlalquemy by greating an engi
 
 In addition, the average salary for the different positions also showed similar trend. The data was heavily squed toward $40.000
 
-![](EmployeeSQL/Images/salarytJobtitle.png)
+![](EmployeeSQL/Images/salaryJob.png)
 
 The data is clearly faulty. 
 
