@@ -51,8 +51,9 @@ In addition, the average salary for the different positions also showed similar 
 
 ![](EmployeeSQL/Images/salaryJob.png)
 
-The data is clearly faulty. 
+The dataset is clearly faulty - nice way for fake -. Look for the employee umber 49,9946 in [EmployeeSQL/data_analysis.ipynb](EmployeeSQL/data_analysis.ipynb) 
 
-
+#------------------------------------------------------------------------------------------------
+#
 ## Feel free to contact me
 * Marina Marinkovic/PdeM: [LinkedIn](https://www.linkedin.com/in/marinamarinkovic/) | [GitHub](https://github.com/MPdeM)
